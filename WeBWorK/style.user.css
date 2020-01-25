@@ -1,0 +1,24 @@
+/* ==UserStyle==
+@name           WeBWorK Dark
+@namespace      github.com/notderw/UserStyles
+@version        0.0.1
+@description    Dark Theme for WeBWorK
+@author         derw.xyz
+@homepageURL    https://github.com/notderw/UserStyles/WeBWorK
+@license        MIT
+==/UserStyle== */
+@-moz-document domain("webwork.maa.org") {
+  body, .body, .Body {
+    background: #212121 !important;
+    color: #E0E0E0;
+  }
+  input.codeshard,
+  input[type="submit"] {
+    background: #3b3b3b;
+    border-color: #3b3b3b;
+    color: #c7c7c7;
+  }
+  li.currentProblem {
+    background: #3b3b3b;
+  }
+}

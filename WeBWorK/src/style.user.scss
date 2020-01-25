@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name           WeBWorK Dark
+@namespace      github.com/notderw/UserStyles
+@version        0.0.1
+@description    Dark Theme for WeBWorK
+@author         derw.xyz
+@homepageURL    https://github.com/notderw/UserStyles/WeBWorK
+@license        MIT
+==/UserStyle== */
+
+@import "variables";
+
+@-moz-document domain("webwork.maa.org") {
+    body, .body, .Body { // y tho
+        background: $background-color !important;
+        color: $text-color;
+    }
+
+    input.codeshard,
+    input[type="submit"] {
+        background: lighten($background-color, 10%);
+        border-color: lighten($background-color, 10%);
+        color: darken($text-color, 10%);
+    }
+
+    li.currentProblem {
+        background: lighten($background-color, 10%);
+    }
+}
