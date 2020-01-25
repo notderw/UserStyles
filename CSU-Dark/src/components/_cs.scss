@@ -1,0 +1,146 @@
+@-moz-document regexp("https://www.cs.colostate.edu/~cs(.*)/(.*)/(.*)") {
+    body {
+        background: $background-color;
+        color: $text-color;
+    }
+
+    #page {
+        border: initial;
+        padding: initial;
+        margin: initial;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    #contents {
+        flex-grow: 1;
+        // padding: 0;
+    }
+
+    #contents,
+    #banner {
+        background: $background-color;
+    }
+
+    p.courseTitle,
+    p.courseSubTitle,
+    p.courseSubTitle a:link,
+    p.courseSubTitle a:visited,
+    p.courseSubTitle a:hover,
+    p.courseSubTitle a:active {
+        color: $text-color;
+    }
+
+    .indented {
+        margin-left: 0;
+        padding-left: 16px;
+    }
+
+    #progress_dates { background-color: lighten($background-color, 15%) }
+    #progress_lectures { background-color: #F57F17 }
+    #progress_recitations { background-color: #43A047 }
+    #progress_assignments { background-color: #AD1457 }
+    #progress_online { background-color: #9C27B0 }
+    #progress_reading { background-color: #03A9F4;}
+    #progress_exams { background-color: #EC407A;}
+
+    .tablestyle {
+        background: lighten($background-color, 4%);
+        border-color: lighten($background-color, 4%);
+    }
+
+    th {
+        border-color: $border-color;
+        background: initial;
+        color: $text-color;
+    }
+
+    .tdtext {
+        border-color: $border-color;
+    }
+
+    #FancyButton {
+        color: $background-color;
+        border-color: $background-color;
+    }
+
+    hr {
+        height: 0px;
+        border: none;
+        border-top: 1px $border-color;
+    }
+
+    #Assignments tr:first-of-type td:first-of-type {
+        overflow: hidden;
+        border-radius: 50%;
+
+        img {
+            margin: -6px;
+        }
+    }
+
+    #codeArea,
+    // Hack to select the stupid fucking testing results box
+    div[style*="background-color:#f0f0f0;"] {
+        background: lighten($background-color, 10%) !important;
+        color: $text-color;
+        border: none !important;
+        padding: 16px;
+
+        pre {
+            margin: 0;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: #00ff00;
+        }
+    }
+
+    font[color="black"] {
+        color: darken($text-color, 10%);
+    }
+}
+
+@-moz-document regexp("https://www.cs.colostate.edu/~cs165/(.*)/(assignments|recitations)/(.*)/doc/") {
+    body {
+        background: $background-color;
+        color: $text-color;
+    }
+
+    #header > h1:first-child {
+        color: rgba($text-color, .85);
+        border-color: $border-color;
+    }
+
+    .admonitionblock > table td.content {
+        color: rgba($text-color, .6);
+        border-color: $border-color;
+    }
+
+    table tr {
+        th, td {
+            color: rgba($text-color, .8);
+        }
+    }
+
+    .literalblock pre,
+    .listingblock pre:not(.highlight),
+    .listingblock pre[class="highlight"],
+    .listingblock pre[class^="highlight "],
+    .listingblock pre.CodeRay,
+    .listingblock pre.prettyprint,
+    :not(pre) > code {
+        background: lighten($background-color, 5%);
+    }
+
+    code,
+    pre,
+    pre > code {
+        color: rgba($text-color, .9);
+    }
+
+    hr {
+        border-color: $border-color;
+    }
+}
