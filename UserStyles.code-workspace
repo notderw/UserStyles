@@ -1,7 +1,7 @@
 {
 	"folders": [
 		{
-			"path": "CSU-Dark"
+			"path": "."
 		}
 	],
 	"settings": {
@@ -10,7 +10,7 @@
 			{
 				"format": "expanded",
 				"extensionName": ".css",
-				"savePath": "/"
+				"savePath": "~/../"
 			}
 		]
 	}
