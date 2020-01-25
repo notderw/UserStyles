@@ -1,5 +1,8 @@
 {
 	"folders": [
+		{
+			"path": "CSU-Dark"
+		}
 	],
 	"settings": {
 		"liveSassCompile.settings.generateMap": false,
