@@ -26,4 +26,16 @@
     li.currentProblem {
         background: lighten($background-color, 10%);
     }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: lighten(#225, 20%);
+    }
+
+    table.attemptResults {
+        border-color: lighten($background-color, 20%);
+
+        td, th {
+            background: lighten($background-color, 10%);
+        }
+    }
 }

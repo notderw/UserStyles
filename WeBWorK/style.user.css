@@ -21,4 +21,13 @@
   li.currentProblem {
     background: #3b3b3b;
   }
+  h1, h2, h3, h4, h5, h6 {
+    color: #3f3f9e;
+  }
+  table.attemptResults {
+    border-color: #545454;
+  }
+  table.attemptResults td, table.attemptResults th {
+    background: #3b3b3b;
+  }
 }
