@@ -30,4 +30,7 @@
   table.attemptResults td, table.attemptResults th {
     background: #3b3b3b;
   }
+  div.ResultsWithoutError {
+    color: #212121;
+  }
 }

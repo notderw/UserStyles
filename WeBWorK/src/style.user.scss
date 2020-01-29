@@ -38,4 +38,8 @@
             background: lighten($background-color, 10%);
         }
     }
+
+    div.ResultsWithoutError {
+        color: #212121;
+    }
 }
