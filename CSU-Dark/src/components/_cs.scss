@@ -1,4 +1,4 @@
-@-moz-document regexp("https://www.cs.colostate.edu/~cs(.*)/(.*)/(.*)") {
+@-moz-document regexp("https://www.cs.colostate.edu/~cs(.*)/(.*)/(.*)/") {
     body {
         background: $background-color;
         color: $text-color;
