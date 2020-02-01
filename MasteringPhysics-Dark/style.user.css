@@ -1,0 +1,158 @@
+/* ==UserStyle==
+@name           MasteringPhysics Dark
+@namespace      github.com/notderw/UserStyles
+@version        0.0.1
+@description    Dark mode for Pearson's MasteringPhysics
+@author         derw.xyz
+@homepageURL    https://github.com/notderw/UserStyles/MasteringPhysics-Dark
+@license        MIT
+==/UserStyle== */
+@-moz-document url-prefix("https://session.masteringphysics.com/myct/") {
+  body {
+    background: #212121;
+    color: #E0E0E0;
+  }
+  #mainBodyContainer {
+    background: transparent;
+  }
+  section.assignment-meta-info {
+    background: #141414;
+  }
+  a.assignmentDueDate, a.assignmentDueDate:hover {
+    color: #bababa;
+  }
+  table.table-assignment > thead > tr > th {
+    border-color: #6e6e6e;
+  }
+  table.table-assignment > tbody > tr > td {
+    border-color: #616161;
+  }
+  .gridley div.section.part:first-child > .head {
+    border-color: #616161;
+  }
+  .gridley #item-view-top-bar header {
+    border-color: #616161;
+  }
+  #item-nav h3 {
+    color: #bababa;
+  }
+  .notice-bar {
+    color: #c7c7c7;
+    border-color: #616161;
+  }
+  .nav span.nav-circle {
+    background: #2e2e2e;
+    border-color: #616161;
+  }
+  .nav span.nav-circle.disabled {
+    background: #212121;
+    border-color: #2e2e2e;
+  }
+  .nav span.nav-circle.disabled .fa {
+    color: #2e2e2e;
+  }
+  .leftcol {
+    border-color: #616161;
+  }
+  .section.part.foldy > .hd * {
+    color: #E0E0E0;
+  }
+  .section.part.foldy.open > .hd {
+    background-color: #2e2e2e;
+  }
+  #playersite:not(.print) .introBox:not(.hidden) {
+    border: none;
+    background: #141414;
+  }
+  .flipper > .selector .desc {
+    color: #E0E0E0;
+  }
+  .flipper > .display {
+    border-color: #616161;
+  }
+  .flipper > .display > .media {
+    filter: invert(1);
+  }
+  .hint-block.foldy > .bd {
+    background-color: #141515;
+  }
+  .answer .work {
+    background: #212121;
+    border-color: #616161;
+  }
+  .answer > .responsesBox > .responses {
+    background: #2e2e2e;
+    box-shadow: 1px 1px 1px 0 #141414;
+    border-color: #141414;
+  }
+  .answer > .responsesBox > .responses > div.comment,
+  .answer > .responsesBox > .responses > div.after {
+    color: #c7c7c7;
+  }
+  .answer > .responsesBox > .responses > div.feedback,
+  .answer > .responsesBox > .responses > div.followup {
+    color: #bababa;
+  }
+  .title {
+    color: #bababa;
+  }
+  .panel {
+    background: #212121;
+  }
+  section header {
+    border-color: #616161;
+  }
+  .list-announcements .oval {
+    background-color: #3b3b3b;
+  }
+  .list-announcements li {
+    border-color: #616161;
+  }
+  .list-assignments > li {
+    border-color: #2e2e2e;
+  }
+  .assignments-calendar-view .agenda-container {
+    background-color: #1c1c1c;
+    border: none;
+  }
+  ul.assignment-cards > li {
+    background-color: #212121;
+  }
+  .fa[class*="fa-"] {
+    color: #E0E0E0;
+  }
+  .btn-default {
+    background: #292929;
+    border-color: #292929;
+    color: #c7c7c7;
+  }
+  .btn-default:hover {
+    background: #333333;
+    border-color: #333333;
+    color: #c7c7c7;
+  }
+  .btn-white,
+  .btn-white.focus,
+  .btn-white:focus {
+    background: #2e2e2e;
+    border-color: #333333;
+  }
+  .btn-white .fa[class*="fa-"],
+  .btn-white.focus .fa[class*="fa-"],
+  .btn-white:focus .fa[class*="fa-"] {
+    color: #E0E0E0;
+  }
+  #copyright hr {
+    border-color: #616161;
+  }
+  #copyright svg {
+    fill: #adadad;
+  }
+  .collapsible-container--title--h3--a,
+  .collapsible-container--title--h3--a:focus,
+  .collapsible-container--title--h3--a:hover {
+    background: #2e2e2e !important;
+    border: none !important;
+    color: #E0E0E0 !important;
+  }
+}

@@ -1,0 +1,213 @@
+/* ==UserStyle==
+@name           MasteringPhysics Dark
+@namespace      github.com/notderw/UserStyles
+@version        0.0.1
+@description    Dark mode for Pearson's MasteringPhysics
+@author         derw.xyz
+@homepageURL    https://github.com/notderw/UserStyles/MasteringPhysics-Dark
+@license        MIT
+==/UserStyle== */
+
+@import "variables";
+
+@-moz-document url-prefix("https://session.masteringphysics.com/myct/") {
+    body {
+        background: $background-color;
+        color: $text-color;
+    }
+
+    #mainBodyContainer {
+        background: transparent;
+    }
+
+    section.assignment-meta-info {
+        background: darken($background-color, 5%);
+    }
+
+    a.assignmentDueDate, a.assignmentDueDate:hover {
+        color: darken($text-color, 15%);
+    }
+
+    table.table-assignment {
+        > thead > tr > th {
+            border-color: lighten($border-color, 5%);
+        }
+
+        > tbody > tr > td {
+            border-color: $border-color;
+        }
+    }
+
+    .gridley div.section.part:first-child > .head {
+        border-color: $border-color;
+    }
+
+    .gridley #item-view-top-bar header {
+        border-color: $border-color;
+    }
+
+    #item-nav h3 {
+        color: darken($text-color, 15%);
+    }
+
+    .notice-bar {
+        color: darken($text-color, 10%);
+        border-color: $border-color;
+    }
+
+    .nav span.nav-circle {
+        background: lighten($background-color, 5%);
+        border-color: lighten($background-color, 25%);
+
+        &.disabled {
+            background: $background-color;
+            border-color: lighten($background-color, 5%);
+
+            .fa {
+                color: lighten($background-color, 5%);
+            }
+        }
+    }
+
+    .leftcol {
+        border-color: $border-color;
+    }
+
+    .section.part.foldy {
+        > .hd * {
+            color: $text-color;
+        }
+
+        &.open > .hd {
+            background-color: lighten($background-color, 5%);
+        }
+    }
+
+    #playersite:not(.print) .introBox:not(.hidden) {
+        border: none;
+        background: darken($background-color, 5%);
+    }
+
+    .flipper {
+        > .selector .desc {
+            color: $text-color;
+        }
+
+        > .display {
+            border-color: $border-color;
+
+            // EXPERIMENTAL
+            > .media {
+                filter: invert(1);
+            }
+        }
+    }
+
+    .hint-block.foldy > .bd {
+        background-color: #141515;
+    }
+
+    .answer {
+        .work {
+            background: $background-color;
+            border-color: $border-color;
+        }
+
+        > .responsesBox > .responses {
+            background: lighten($background-color, 5%);
+            box-shadow: 1px 1px 1px 0 darken($background-color, 5%);
+            border-color: darken($background-color, 5%);
+
+            > div.comment,
+            > div.after {
+                color: darken($text-color, 10%);
+            }
+
+            > div.feedback,
+            > div.followup {
+                color: darken($text-color, 15%);
+            }
+        }
+    }
+
+    .title {
+        color: darken($text-color, 15%);
+    }
+
+    .panel {
+        background: $background-color;
+    }
+
+    section header {
+        border-color: $border-color;
+    }
+
+    .list-announcements {
+        .oval {
+            background-color: lighten($background-color, 10%);
+        }
+
+        li {
+            border-color: $border-color;
+        }
+    }
+
+    .list-assignments > li {
+        border-color: lighten($background-color, 5%);
+    }
+
+    .assignments-calendar-view .agenda-container {
+        background-color: darken($background-color, 2%);
+        border: none
+    }
+
+    ul.assignment-cards > li {
+        background-color: $background-color;
+    }
+
+    .fa[class*="fa-"] {
+        color: $text-color;
+    }
+
+    .btn-default {
+        background: lighten($background-color, 3%);
+        border-color: lighten($background-color, 3%);
+        color: darken($text-color, 10%);
+
+        &:hover {
+            background: lighten($background-color, 7%);
+            border-color: lighten($background-color, 7%);
+            color: darken($text-color, 10%);
+        }
+    }
+
+    .btn-white,
+    .btn-white.focus,
+    .btn-white:focus {
+        background: lighten($background-color, 5%);
+        border-color: lighten($background-color, 7%);
+
+        .fa[class*="fa-"] {
+            color: $text-color;
+        }
+    }
+
+    #copyright {
+        hr {
+            border-color: $border-color;
+        }
+
+        svg {
+            fill: darken($text-color, 20%);
+        }
+    }
+
+    // Annoying !important requirement
+    .collapsible-container--title--h3--a,
+    .collapsible-container--title--h3--a:focus,
+    .collapsible-container--title--h3--a:hover {
+        background: lighten($background-color, 5%) !important;
+        border: none !important;
+        color: $text-color !important;
+    }
+}
