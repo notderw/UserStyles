@@ -68,6 +68,7 @@
     color: #E0E0E0;
   }
   .flipper > .display {
+    background: transparent;
     border-color: #616161;
   }
   .flipper > .display > .media {
