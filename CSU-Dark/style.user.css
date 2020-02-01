@@ -31,7 +31,7 @@
   }
 }
 
-@-moz-document regexp("https://www.cs.colostate.edu/~cs(.*)/(.*)/(.*)/") {
+@-moz-document regexp("https://www.cs.colostate.edu/~cs\\d+/[.\\w]+/([\\w\\d\\.]+)?") {
   body {
     background: #212121;
     color: #E0E0E0;
