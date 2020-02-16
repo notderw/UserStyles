@@ -64,6 +64,9 @@
     border: none;
     background: #141414;
   }
+  #playersite:not(.print) .section.transition {
+    background: #123535;
+  }
   .flipper > .selector .desc {
     color: #E0E0E0;
   }
@@ -94,7 +97,11 @@
   .answer > .responsesBox > .responses > div.followup {
     color: #bababa;
   }
-  .title {
+  .eqEditor.focused .eqDocument .current {
+    background: #002e59;
+  }
+  .title,
+  .pane .head {
     color: #bababa;
   }
   .panel {

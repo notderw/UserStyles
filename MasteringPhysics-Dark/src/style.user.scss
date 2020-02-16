@@ -83,9 +83,15 @@
         }
     }
 
-    #playersite:not(.print) .introBox:not(.hidden) {
-        border: none;
-        background: darken($background-color, 5%);
+    #playersite:not(.print) {
+        .introBox:not(.hidden) {
+            border: none;
+            background: darken($background-color, 5%);
+        }
+
+        .section.transition {
+            background: darken(#e7f7f7, 80%);
+        }
     }
 
     .flipper {
@@ -131,7 +137,12 @@
         }
     }
 
-    .title {
+    .eqEditor.focused .eqDocument .current {
+        background: darken(#bfe0ff, 70%)
+    }
+
+    .title,
+    .pane .head {
         color: darken($text-color, 15%);
     }
 
