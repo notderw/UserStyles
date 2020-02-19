@@ -1,0 +1,4 @@
+// Invert images, they usually bright af
+@mixin invert-image {
+    filter: invert(1) hue-rotate(180deg);
+}

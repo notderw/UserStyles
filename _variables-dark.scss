@@ -1,0 +1,21 @@
+// CORE
+$background-color: black;
+$text-color: white;
+
+// GENERAL BACKGROUNDS
+$body-background-color: $background-color;
+$body-background-accent-color: lighten($background-color, 13%);
+
+// GENERAL TEXT
+$body-text-color: darken($text-color, 15%);
+$text-title-color: darken($text-color, 10%);
+
+// GENERAL BORDERS
+$border-color: lighten($background-color, 13%);
+
+// HEADER
+$header-text-color: $text-title-color;
+$header-background-color: $body-background-color;
+
+// BUTTONS
+$button-text-color: $body-text-color;
