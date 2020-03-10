@@ -16,6 +16,7 @@
         color: $text-color;
     }
 
+    textarea,
     input.codeshard,
     input[type="submit"] {
         background: lighten($background-color, 10%);

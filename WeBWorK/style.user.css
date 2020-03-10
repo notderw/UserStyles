@@ -12,6 +12,7 @@
     background: #212121 !important;
     color: #E0E0E0;
   }
+  textarea,
   input.codeshard,
   input[type="submit"] {
     background: #3b3b3b;
