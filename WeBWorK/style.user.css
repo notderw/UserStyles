@@ -9,27 +9,27 @@
 ==/UserStyle== */
 @-moz-document domain("webwork.maa.org") {
   body, .body, .Body {
-    background: #212121 !important;
-    color: #E0E0E0;
+    background: black !important;
+    color: white;
   }
   textarea,
   input.codeshard,
   input[type="submit"] {
-    background: #3b3b3b;
-    border-color: #3b3b3b;
-    color: #c7c7c7;
+    background: #1a1a1a;
+    border-color: #1a1a1a;
+    color: #e6e6e6;
   }
   li.currentProblem {
-    background: #3b3b3b;
+    background: #1a1a1a;
   }
   h1, h2, h3, h4, h5, h6 {
     color: #3f3f9e;
   }
   table.attemptResults {
-    border-color: #545454;
+    border-color: #333333;
   }
   table.attemptResults td, table.attemptResults th {
-    background: #3b3b3b;
+    background: #1a1a1a;
   }
   div.ResultsWithoutError {
     color: #212121;
