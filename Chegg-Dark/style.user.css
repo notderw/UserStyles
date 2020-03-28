@@ -1,0 +1,291 @@
+/* ==UserStyle==
+@name           Chegg Dark
+@namespace      github.com/notderw/UserStyles
+@version        0.0.1
+@description    Dark mode for Chegg
+@author         derw.xyz
+@homepageURL    https://github.com/notderw/UserStyles/Chegg-Dark
+@license        MIT
+==/UserStyle== */
+@-moz-document domain("chegg.com") {
+  html, body,
+  body.desktop.chegg-css,
+  body.mobile.chegg-css {
+    background: black;
+  }
+  body {
+    color: #d9d9d9;
+  }
+  .header-placeholder,
+  .chgg-hdr,
+  .C-global-cheggheader-searchbox.expanded .chg-header-autosuggest {
+    background: black;
+  }
+  .chgg-hdr-navigation .nav-item .nav-item-header,
+  .chgg-hdr-navigation .nav-item-pipe .nav-item-header,
+  .C-global-cheggheader-rightsection-notifications .chg-hdr-notifications.embed-js#notifications-component #notifications-button #notifications-icon,
+  .chgg-menu-container .chgg-menu-icon {
+    color: #e6e6e6;
+  }
+  nav.chgg-menu.split-nav, nav.chgg-menu .carrot {
+    background: black;
+    border-color: #212121;
+  }
+  nav.chgg-menu span, nav.chgg-menu .chgg-menu-image {
+    color: #e6e6e6;
+  }
+  .txt-body,
+  .tutor-row .tutor-info .name,
+  #enhanced-content-component,
+  .mytbs .mytbs-subheader,
+  .recommended-questions-problems .question-div .question-link .q-txt,
+  .recommended-questions .question-div .question-link .q-txt,
+  .recommended-questions-problems .question-div .question-link,
+  .recommended-questions .question-div .question-link,
+  .global-breadcrumb.txt-2-small a,
+  .global-breadcrumb.txt-2-small,
+  #solutionHeader .edition-text,
+  .C-common-overlay-tooltip,
+  .C-global-cheggheader-rightsection-usermenu .nav-item .hover-box ul li a,
+  div[id].C-oc-questionasked .empty-state .value-prop-empty-state-list li span,
+  .chegg-general-attach .generalattach .chg-list > li > span,
+  .chegg-general-attach .generalattach ol > li > span,
+  .chegg-general-attach .generalattach ul > li > span {
+    color: #d9d9d9;
+  }
+  .mytbs .mytbs-header,
+  .C-common-question-form .title,
+  #enhanced-content-component .guidance-header,
+  #enhanced-content-component .steps-header,
+  .toolbar .button,
+  #toc-button,
+  .TutorList__headline--black,
+  .crs-widget .title,
+  .content-container,
+  .content-container .s-title,
+  .txt-hdr-top span,
+  .C-page-my-modules-mystuff-profile .profile .profile-info h1,
+  div[id].C-oc-questionasked .oc-qa-title,
+  .chegg-general-attach .generalattach .component-title {
+    color: #e6e6e6;
+  }
+  hr,
+  .mytbs,
+  .right-sidebar .post-new-question-form,
+  .answer-heading:first-child,
+  .tutor-container.white,
+  ul.answers-list > li,
+  #enhanced-content-component #general-guidance,
+  #enhanced-content-component #steps,
+  #enhanced-content-component #steps > div,
+  #enhanced-content-component .answer-header,
+  .question-toolbar-item,
+  .mytbs .mytbs-placeholderbook .placeholderbook-content,
+  .recommended-questions-problems .heading,
+  .recommended-questions .heading,
+  .recommended-questions-problems .question-div,
+  .recommended-questions .question-div,
+  .C-chegg-footer nav,
+  #right-rail .post-question,
+  .toolbar,
+  section.problem .problem-content,
+  .TBSPlayer .main,
+  .step,
+  .crs-widget,
+  :last-child > .step,
+  .comment-box .comments-toggle,
+  #related-anchors div,
+  .toolbar .toggle-button-toolbar,
+  .toolbar .mobile-btn,
+  .toolbar .show-hide-all,
+  .toolbar .bookmark-tab,
+  .toolbar .fullscreen,
+  .TutorList__container,
+  .video-walkthrough,
+  .C-common-overlay-tooltip .tooltip .grey-border,
+  .C-global-cheggheader-rightsection-usermenu .nav-item.user-item .user-hover-content ul,
+  div[id].C-oc-questionasked .chegg-question-asked.border,
+  .OC-component-mytbs .my-tbs,
+  .chegg-general-attach .generalattach,
+  .C-page-my-modules-mystuff-profile,
+  .avatar-comments {
+    border-color: #212121;
+  }
+  .toc,
+  .text-me-app-container.app-promotion .tooltip.text-me-the-app-new-design,
+  .C-common-overlay-tooltip .tooltip .tooltip-content,
+  .C-global-cheggheader-rightsection-usermenu .nav-item .hover-box,
+  div.C-cheggauth .auth-body .auth_collector .auth-collector-content,
+  .C-page-my .column#first, .C-page-my .column#middle {
+    background: black;
+  }
+  #enhanced-content-component .step-answer,
+  .recommended-questions-problems .question-div:hover,
+  .recommended-questions .question-div:hover,
+  .tutor-row:hover,
+  .video-walkthrough,
+  .toolbar,
+  #related-anchors div,
+  .toolbar .toggle-button-toolbar,
+  .toolbar .button,
+  .step .step-header,
+  .outer-container a.inner-container:hover,
+  .C-global-cheggheader-rightsection-usermenu .nav-item.user-item .user-hover-content .profile,
+  .C-page-my-modules-mystuff-profile .profile-box,
+  .C-page-my-modules-mystuff-profile .profile-box:hover {
+    background: #212121;
+  }
+  .chg-global-content,
+  .C-common-question-form,
+  .tutor-row,
+  .tutor-container.white,
+  #enhanced-content-component .expl-content,
+  #enhanced-content-component .hint-content,
+  #enhanced-content-component .mistakes-content,
+  .TutorList__container--vertical,
+  nav.chgg-menu li,
+  .TBSPlayer,
+  .TutorProfileBox,
+  .C-global-cheggheader-rightsection-usermenu .nav-item .hover-box ul li,
+  div[id].C-oc-questionasked .chegg-question-asked,
+  .OC-component-mytbs .my-tbs,
+  .C-page-my .first-middle-wrapper,
+  .chegg-general-attach .generalattach,
+  .avatar-comments {
+    background: initial;
+  }
+  textarea,
+  input[type="email"],
+  input[type="number"],
+  input[type="password"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="text"],
+  input[type="url"],
+  .chg-header-autosuggest .autosuggest-input-field:focus,
+  .C-global-cheggheader-searchbox.expanded .chg-header-autosuggest .chg-search-form #header-autosuggest-input,
+  .C-global-cheggheader-searchbox.expanded .chg-header-autosuggest .chg-search-form #header-autosuggest-input:focus,
+  .leave-comment textarea {
+    background: black;
+    border-color: #212121;
+  }
+  input[type="email"].form-input-lg,
+  input[type="email"].form-input-sm,
+  input[type="number"].form-input-lg,
+  input[type="number"].form-input-sm,
+  input[type="password"].form-input-lg,
+  input[type="password"].form-input-sm,
+  input[type="search"].form-input-lg,
+  input[type="search"].form-input-sm,
+  input[type="tel"].form-input-lg,
+  input[type="tel"].form-input-sm,
+  input[type="text"].form-input-lg,
+  input[type="text"].form-input-sm,
+  input[type="url"].form-input-lg,
+  input[type="url"].form-input-sm,
+  textarea.form-textarea-lg,
+  textarea.form-textarea-mini,
+  textarea.form-textarea-sm,
+  .C-common-question-form textarea,
+  .leave-comment textarea {
+    color: #d9d9d9;
+  }
+  .C-global-cheggheader-searchbox.expanded .chg-header-autosuggest .chg-search-form a[data-type="button"].autosuggest-search-btn {
+    border-color: #212121;
+  }
+  .content-feedback .C-Eggshell-homeworkhelp-thumbrating .rating-block,
+  .tutor-row .tutor-likes,
+  .review-box .button-wrapper .thumb {
+    background: black;
+    border-color: #212121;
+    color: #d9d9d9;
+  }
+  .btn-flat-lg,
+  .btn-flat-mini,
+  .btn-flat-sm,
+  .btn-primary-mini,
+  .btn-primary.btn-mini,
+  .btn-search-mini,
+  .btn-secondary,
+  .btn-secondary-dk-mini,
+  .btn-secondary-flat,
+  .btn-secondary-lg,
+  .btn-secondary-mini,
+  .btn-secondary-sm,
+  .btn-special.btn-mini {
+    background: #212121;
+    border-color: #212121;
+    color: #d9d9d9;
+  }
+  #enhanced-content-component #general-guidance::before {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), black 77%);
+  }
+  div.C-cheggauth .auth-body .auth_collector .auth-collector-content .header-block .title {
+    color: #e6e6e6;
+  }
+  div.C-cheggauth .auth-body .auth_collector .auth-collector-content .header-block .sub-title {
+    color: #d9d9d9;
+  }
+  div.C-cheggauth .form-input-lg,
+  div.C-cheggauth .form-input-lg.form-input-mini,
+  div.C-cheggauth .form-input-lg.small,
+  div.C-cheggauth .form-input-sm,
+  div.C-cheggauth .form-input-sm.form-input-mini,
+  div.C-cheggauth .form-input-sm.small,
+  div.C-cheggauth .txt-input,
+  div.C-cheggauth .txt-input.form-input-mini,
+  div.C-cheggauth .txt-input.small,
+  div.C-cheggauth input.form-input-mini[type="email"],
+  div.C-cheggauth input.form-input-mini[type="password"],
+  div.C-cheggauth input.form-input-mini[type="search"],
+  div.C-cheggauth input.form-input-mini[type="tel"],
+  div.C-cheggauth input.form-input-mini[type="text"],
+  div.C-cheggauth input.small[type="email"],
+  div.C-cheggauth input.small[type="password"],
+  div.C-cheggauth input.small[type="search"],
+  div.C-cheggauth input.small[type="tel"],
+  div.C-cheggauth input.small[type="text"],
+  div.C-cheggauth input[type="checkbox"] + .form-checkbox::after,
+  div.C-cheggauth input[type="checkbox"] + .form-checkbox::before,
+  div.C-cheggauth input[type="email"],
+  div.C-cheggauth input[type="password"],
+  div.C-cheggauth input[type="search"],
+  div.C-cheggauth input[type="tel"],
+  div.C-cheggauth input[type="text"],
+  div.C-cheggauth .auth-body input:focus {
+    border-color: #212121;
+    color: #d9d9d9;
+  }
+  div.C-cheggauth .C-cheggauth-ssoControl .divider-image {
+    border-color: #212121;
+  }
+  div.C-cheggauth .C-cheggauth-ssoControl .divider-image::after {
+    background: black;
+    color: #d9d9d9;
+  }
+  div.C-cheggauth .C-cheggauth-ssoControl .sso-field {
+    background: black;
+  }
+  div.C-cheggauth .C-cheggauth-ssoControl .sso-field, div.C-cheggauth .C-cheggauth-ssoControl .sso-field li.sso-section {
+    border-color: #212121;
+  }
+  .C-common-overlay-tooltip.tooltip-bottom .tooltip-arrow-top::before,
+  .C-common-overlay-tooltip.tooltip-bottom .tooltip-arrow-top::after,
+  .avatar-comments::after {
+    border-bottom-color: black;
+  }
+  .C-common-overlay-tooltip.tooltip-bottom .tooltip-arrow-top::before,
+  .avatar-comments::before {
+    border-bottom-color: #212121;
+  }
+  #enhanced-content-component #steps .step-text p img,
+  #enhanced-content-component .final-answers p img,
+  #enhanced-content-component .step-answer p img,
+  .question .question-body img,
+  .answers-list .answer-given-body img,
+  .problem-html img,
+  .step-html img,
+  .inner-container .img-container {
+    filter: invert(1) hue-rotate(180deg);
+  }
+}
