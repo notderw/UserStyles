@@ -8,7 +8,7 @@
 @license        MIT
 ==/UserStyle== */
 @-moz-document url-prefix("https://session.masteringphysics.com/myct/") {
-  body {
+  html, body {
     background: #212121;
     color: #E0E0E0;
   }
