@@ -1,7 +1,7 @@
 @-moz-document regexp("https://www.cs.colostate.edu/~cs\\d+/[.\\w]+/([\\w\\d\\.]+)?") {
     body {
-        background: $background-color;
-        color: $text-color;
+        background: $body-background-color;
+        color: $body-text-color;
     }
 
     #page {
@@ -20,7 +20,7 @@
 
     #contents,
     #banner {
-        background: $background-color;
+        background: $body-background-color;
     }
 
     p.courseTitle,
@@ -29,7 +29,7 @@
     p.courseSubTitle a:visited,
     p.courseSubTitle a:hover,
     p.courseSubTitle a:active {
-        color: $text-color;
+        color: $body-text-color;
     }
 
     .indented {
@@ -46,14 +46,14 @@
     #progress_exams { background-color: #EC407A;}
 
     .tablestyle {
-        background: lighten($background-color, 4%);
-        border-color: lighten($background-color, 4%);
+        background: $body-background-accent-color;
+        border-color: $border-color;
     }
 
     th {
         border-color: $border-color;
         background: initial;
-        color: $text-color;
+        color: $body-text-color;
     }
 
     .tdtext {
@@ -61,8 +61,8 @@
     }
 
     #FancyButton {
-        color: $background-color;
-        border-color: $background-color;
+        color: $body-background-color;
+        border-color: $body-background-color;
     }
 
     hr {
@@ -83,8 +83,8 @@
     #codeArea,
     // Hack to select the stupid fucking testing results box
     div[style*="background-color:#f0f0f0;"] {
-        background: lighten($background-color, 10%) !important;
-        color: $text-color;
+        background: $body-background-accent-color !important;
+        color: $body-text-color;
         border: none !important;
         padding: 16px;
 
@@ -104,23 +104,23 @@
 
 @-moz-document regexp("https://www.cs.colostate.edu/~cs165/(.*)/(assignments|recitations)/(.*)/doc/") {
     body {
-        background: $background-color;
-        color: $text-color;
+        background: $body-background-color;
+        color: $body-text-color;
     }
 
     #header > h1:first-child {
-        color: rgba($text-color, .85);
+        color: $body-text-color;
         border-color: $border-color;
     }
 
     .admonitionblock > table td.content {
-        color: rgba($text-color, .6);
+        color: $body-text-color;
         border-color: $border-color;
     }
 
     table tr {
         th, td {
-            color: rgba($text-color, .8);
+            color: $body-text-color;
         }
     }
 
@@ -131,13 +131,13 @@
     .listingblock pre.CodeRay,
     .listingblock pre.prettyprint,
     :not(pre) > code {
-        background: lighten($background-color, 5%);
+        background: $body-background-accent-color;
     }
 
     code,
     pre,
     pre > code {
-        color: rgba($text-color, .9);
+        color: $body-text-color;
     }
 
     hr {

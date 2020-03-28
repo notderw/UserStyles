@@ -1,7 +1,7 @@
 @-moz-document domain("shibidp.colostate.edu"), domain("canvas.colostate.edu") {
     body {
-        background: $background-color;
-        color: $text-color;
+        background: $body-background-color;
+        color: $body-text-color;
 
         h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
             color: lighten(#032, 10%);
@@ -18,11 +18,11 @@
 
     legend {
         border-color: $border-color;
-        color: darken($text-color, 20%);
+        color: darken($body-text-color, 20%);
     }
 
     input {
-        background: lighten($background-color, 10%);
+        background: $body-background-accent-color;
         border-color: $border-color;
     }
 }

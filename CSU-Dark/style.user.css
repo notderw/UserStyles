@@ -9,8 +9,8 @@
 ==/UserStyle== */
 @-moz-document domain("shibidp.colostate.edu"), domain("canvas.colostate.edu") {
   body {
-    background: #212121;
-    color: #E0E0E0;
+    background: black;
+    color: #d9d9d9;
   }
   body h1, body h2, body h3, body h4, body h5, body h6, body .h1, body .h2, body .h3, body .h4, body .h5, body .h6 {
     color: #006644;
@@ -19,22 +19,22 @@
     background: initial;
   }
   .login-box {
-    border-color: #616161 !important;
+    border-color: #212121 !important;
   }
   legend {
-    border-color: #616161;
-    color: #adadad;
+    border-color: #212121;
+    color: #a6a6a6;
   }
   input {
-    background: #3b3b3b;
-    border-color: #616161;
+    background: #212121;
+    border-color: #212121;
   }
 }
 
 @-moz-document regexp("https://www.cs.colostate.edu/~cs\\d+/[.\\w]+/([\\w\\d\\.]+)?") {
   body {
-    background: #212121;
-    color: #E0E0E0;
+    background: black;
+    color: #d9d9d9;
   }
   #page {
     border: initial;
@@ -49,7 +49,7 @@
   }
   #contents,
   #banner {
-    background: #212121;
+    background: black;
   }
   p.courseTitle,
   p.courseSubTitle,
@@ -57,14 +57,14 @@
   p.courseSubTitle a:visited,
   p.courseSubTitle a:hover,
   p.courseSubTitle a:active {
-    color: #E0E0E0;
+    color: #d9d9d9;
   }
   .indented {
     margin-left: 0;
     padding-left: 16px;
   }
   #progress_dates {
-    background-color: #474747;
+    background-color: #262626;
   }
   #progress_lectures {
     background-color: #F57F17;
@@ -85,25 +85,25 @@
     background-color: #EC407A;
   }
   .tablestyle {
-    background: #2b2b2b;
-    border-color: #2b2b2b;
+    background: #212121;
+    border-color: #212121;
   }
   th {
-    border-color: #616161;
+    border-color: #212121;
     background: initial;
-    color: #E0E0E0;
+    color: #d9d9d9;
   }
   .tdtext {
-    border-color: #616161;
+    border-color: #212121;
   }
   #FancyButton {
-    color: #212121;
-    border-color: #212121;
+    color: black;
+    border-color: black;
   }
   hr {
     height: 0px;
     border: none;
-    border-top: 1px #616161;
+    border-top: 1px #212121;
   }
   #Assignments tr:first-of-type td:first-of-type {
     overflow: hidden;
@@ -114,8 +114,8 @@
   }
   #codeArea,
   div[style*="background-color:#f0f0f0;"] {
-    background: #3b3b3b !important;
-    color: #E0E0E0;
+    background: #212121 !important;
+    color: #d9d9d9;
     border: none !important;
     padding: 16px;
   }
@@ -128,25 +128,25 @@
     background: #00ff00;
   }
   font[color="black"] {
-    color: #c7c7c7;
+    color: #e6e6e6;
   }
 }
 
 @-moz-document regexp("https://www.cs.colostate.edu/~cs165/(.*)/(assignments|recitations)/(.*)/doc/") {
   body {
-    background: #212121;
-    color: #E0E0E0;
+    background: black;
+    color: #d9d9d9;
   }
   #header > h1:first-child {
-    color: rgba(224, 224, 224, 0.85);
-    border-color: #616161;
+    color: #d9d9d9;
+    border-color: #212121;
   }
   .admonitionblock > table td.content {
-    color: rgba(224, 224, 224, 0.6);
-    border-color: #616161;
+    color: #d9d9d9;
+    border-color: #212121;
   }
   table tr th, table tr td {
-    color: rgba(224, 224, 224, 0.8);
+    color: #d9d9d9;
   }
   .literalblock pre,
   .listingblock pre:not(.highlight),
@@ -155,14 +155,14 @@
   .listingblock pre.CodeRay,
   .listingblock pre.prettyprint,
   :not(pre) > code {
-    background: #2e2e2e;
+    background: #212121;
   }
   code,
   pre,
   pre > code {
-    color: rgba(224, 224, 224, 0.9);
+    color: #d9d9d9;
   }
   hr {
-    border-color: #616161;
+    border-color: #212121;
   }
 }
