@@ -166,3 +166,19 @@
     border-color: #212121;
   }
 }
+
+@-moz-document regexp("https://course.math.colostate.edu/calc2-review/lessons/.*.html") {
+  body {
+    background: black;
+    color: #d9d9d9;
+  }
+  .lesson-heading {
+    background: black;
+  }
+  .section {
+    background: #212121;
+  }
+  img {
+    filter: invert(1) hue-rotate(180deg);
+  }
+}
