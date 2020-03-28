@@ -1,4 +1,4 @@
-@-moz-document regexp("https://www.cs.colostate.edu/~cs\\d+/[.\\w]+/([\\w\\d\\.]+)?") {
+@-moz-document regexp("https://www.cs.colostate.edu/~cs\d+/[.\w]+/(([\w\d\.]+)/?[^/]+)?") {
     body {
         background: $body-background-color;
         color: $body-text-color;
@@ -102,7 +102,7 @@
     }
 }
 
-@-moz-document regexp("https://www.cs.colostate.edu/~cs165/(.*)/(assignments|recitations)/(.*)/doc/") {
+@-moz-document regexp("https://www.cs.colostate.edu/~cs165/(.*)/(assignments|recitations|quizzes)/(.*)/doc/(\w*.html)?") {
     body {
         background: $body-background-color;
         color: $body-text-color;

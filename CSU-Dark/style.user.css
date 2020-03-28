@@ -31,7 +31,7 @@
   }
 }
 
-@-moz-document regexp("https://www.cs.colostate.edu/~cs\\d+/[.\\w]+/([\\w\\d\\.]+)?") {
+@-moz-document regexp("https://www.cs.colostate.edu/~cs\d+/[.\w]+/(([\w\d\.]+)/?[^/]+)?") {
   body {
     background: black;
     color: #d9d9d9;
@@ -132,7 +132,7 @@
   }
 }
 
-@-moz-document regexp("https://www.cs.colostate.edu/~cs165/(.*)/(assignments|recitations)/(.*)/doc/") {
+@-moz-document regexp("https://www.cs.colostate.edu/~cs165/(.*)/(assignments|recitations|quizzes)/(.*)/doc/(\w*.html)?") {
   body {
     background: black;
     color: #d9d9d9;
